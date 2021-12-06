@@ -15,7 +15,7 @@ int main(void) {
 		groups[x]++;
 	}
 
-	for (int i = 0; i < 256; i++) {
+	for (int i = 0; i < 80; i++) {
 		unsigned long long int old_group = 0;
 		old_group = groups[0];
 		for (int j = 0; j < 9; j++) {
